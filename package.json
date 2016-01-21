@@ -1,0 +1,11 @@
+{
+  "name": "react-webpack-heroku",
+  "version": "1.0.0",
+  "description": "Motive is to show how 3 of these work together..",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankit",
+  "license": "ISC"
+}
