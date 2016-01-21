@@ -3,9 +3,29 @@
   "version": "1.0.0",
   "description": "Motive is to show how 3 of these work together..",
   "main": "index.js",
+  "engines": {
+    "node": "4.x",
+    "npm": "2.14.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "webpack --config ./webpack-production.config.js --progress --colors",
+    "start": "node server.js"
   },
   "author": "Ankit",
-  "license": "ISC"
+  "license": "ISC",
+
+  "dependencies": {
+    "express": "4.13.3",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-jsx": "^0.13.0",
+    "webpack": "1.12.11"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "babel-plugin-react-transform": "^1.1.1",
+    "html-webpack-plugin": "^1.7.0",
+    "webpack-merge": "^0.3.2"
+  }
 }
