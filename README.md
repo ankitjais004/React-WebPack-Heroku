@@ -36,7 +36,7 @@ We are using node js' express framework to run our application.
 ##### Heroku:
 * To deploy our app in heroku we first have to make an account on heroku and login.
 * npm run deploy
-* heroku push origin master
+* git push heroku master
 
 I have deployed this simple App on heroku--> <https://peaceful-wildwood-12514.herokuapp.com>
 
