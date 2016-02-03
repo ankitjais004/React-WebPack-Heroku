@@ -28,7 +28,7 @@ Important points to be kept in mind while writing wepback config file for produc
 
 * Dont forget to add webpack inside dependency.
 
-For more learning pls visit <https://survivejs.com/webpack_react/webpack_and_react> & <https://webpack.github.io/docs> 
+For more learning pls visit <https://survivejs.com/webpack_react/webpack_and_react>, <https://webpack.github.io/docs>, <http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome>  
 
 #####Express:
 We are using node js' express framework to run our application.
