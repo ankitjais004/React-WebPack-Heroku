@@ -26,8 +26,6 @@ Important points to be kept in mind while writing wepback config file for produc
     "npm": "2.14.x"
   }
 
-* Dont forget to add webpack inside dependency.
-
 For more learning pls visit <https://survivejs.com/webpack_react/webpack_and_react>, <https://webpack.github.io/docs>, <http://www.christianalfoni.com/articles/2014_12_13_Webpack-and-react-is-awesome>  
 
 #####Express:
